@@ -7,10 +7,10 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Fuwari',
-  subtitle: 'Demo Site',
+  title: 'Discover Trainsgender(ism) today!',
+  subtitle: 'A blog about transit stuff.',
   lang: 'en',
-  themeHue: 250,
+  themeHue: 170,
   banner: {
     enable: false,
     src: 'assets/images/demo-banner.png',
@@ -22,33 +22,28 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Home,
     LinkPreset.Archive,
     LinkPreset.About,
-    {
-      name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',
-      external: true,
-    },
   ],
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/valerie.png',
+  name: 'Valerie Astern',
+  bio: 'hewwo, im valerie astern (she/her), im the owner of this blog and i will post my opinions about random stuff on here :3',
   links: [
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',
-      url: 'https://twitter.com',
+      name: 'YouTube',
+      icon: 'fa6-brands:youtube',
+      url: 'https://www.youtube.com/channel/UC-asWtY3_XrVsgkAcjutYUw',
     },
     {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      name: 'Instagram',
+      icon: 'fa6-brands:instagram',
+      url: 'https://instagram.com/valphary',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/asterodae/',
     },
   ],
 }
