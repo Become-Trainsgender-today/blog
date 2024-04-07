@@ -26,7 +26,7 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/valerie.png',
+  avatar: 'assets/images/valerie.jpg',
   name: 'Valerie Astern',
   bio: 'hewwo, im valerie astern (she/her), im the owner of this blog and i will post my opinions about random stuff on here :3',
   links: [
